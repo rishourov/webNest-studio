@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Lato";
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.main-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header img {
+  height: 70px;
+}
+.mid-header ul {
+  display: flex;
+}
+ul li a {
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.btn {
+  background-color: rgb(22, 211, 211);
+  padding: 15px 27px;
+  color: white;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: ease-out 0.2s;
+}
+.mid-header a:hover {
+  color: rgb(22, 211, 211);
+}
+.main-header a.active {
+  color: rgb(22, 211, 211);
+}
+/* banner section */
+
+.banner {
+  background-image: url("images/banner.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-slogan {
+  font-size: 40px;
+  margin-bottom: 14px;
+  font-weight: bolder;
+  color: whitesmoke;
+  padding-top: 80px;
+  padding-left: 70px;
+}
+.hero-slogan-intro {
+  color: #ffffff9d;
+  padding-left: 70px;
+  margin-bottom: 50px;
+}
+.btn-more {
+  background-color: rgba(22, 211, 211, 0.676);
+  padding: 15px 25px;
+  color: white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 65px;
+}
+/* our services */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.dollar {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.71);
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+  height: 350px;
+}
+.card-intro {
+  /* margin-top: 25px; */
+  /* margin-bottom: 25px; */
+  line-height: 2;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card h2 {
+  margin-top: 0;
+}
+.card p {
+  color: #666;
+}
+.card-btn {
+  border: 1px solid rgb(115, 218, 228);
+  padding: 12px 25px;
+  border-radius: 15px;
+  color: #666;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+/* footer section */
